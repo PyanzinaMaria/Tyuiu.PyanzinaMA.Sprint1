@@ -14,6 +14,7 @@ namespace Tyuiu.PyanzinaMA.Sprint1.Task2.V22.Test
             int x = 2;
             int y = 4;
             int z = 12;
+
             var res = ds.CalculateAVGValue(x, y, z);
             Assert.AreEqual(6, res);
         }
