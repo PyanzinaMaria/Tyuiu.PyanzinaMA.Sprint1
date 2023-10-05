@@ -41,7 +41,6 @@ namespace Tyuiu.PyanzinaMA.Sprint1.Task1.V22
 
             Console.WriteLine(ds.Calculate(x, y));
             Console.ReadLine();
-
         }
     }
 }
