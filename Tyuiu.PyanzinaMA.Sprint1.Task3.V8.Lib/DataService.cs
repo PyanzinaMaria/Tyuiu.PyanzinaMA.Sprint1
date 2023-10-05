@@ -9,9 +9,9 @@ namespace Tyuiu.PyanzinaMA.Sprint1.Task3.V8.Lib
 {
     public class DataService : ISprint1Task3V8
     {
-        public double IncomeAmount(double percent, double timeDays)
+        public double IncomeAmount(double startAmount, double percent, double timeDays)
         {
-            return (2500 * percent * timeDays) / 365;
+            return (startAmount * percent * timeDays) / 365;
         }
     }
 }

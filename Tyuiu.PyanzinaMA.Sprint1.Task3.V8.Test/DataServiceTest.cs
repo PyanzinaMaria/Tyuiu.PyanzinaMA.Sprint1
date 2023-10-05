@@ -11,11 +11,12 @@ namespace Tyuiu.PyanzinaMA.Sprint1.Task3.V8.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
+            double startAmount = 2500.0;
             double percent = 20.0;
             double timeDays = 30.0;
            
-            var res = ds.IncomeAmount(percent, timeDays);
-            Assert.AreEqual((2500 * percent * timeDays) / 365, res);
+            var res = ds.IncomeAmount(startAmount, percent, timeDays);
+            Assert.AreEqual((startAmount * percent * timeDays) / 365, res);
         }
     }
 }
