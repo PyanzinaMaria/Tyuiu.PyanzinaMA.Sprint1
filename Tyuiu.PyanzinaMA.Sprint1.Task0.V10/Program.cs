@@ -34,7 +34,6 @@ namespace Tyuiu.PyanzinaMA.Sprint1.Task0.V10
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
             Console.WriteLine(ds.Calculate());
             Console.ReadLine();
 

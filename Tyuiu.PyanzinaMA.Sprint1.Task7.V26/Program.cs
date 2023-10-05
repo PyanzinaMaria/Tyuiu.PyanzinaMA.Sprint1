@@ -28,12 +28,12 @@ namespace Tyuiu.PyanzinaMA.Sprint1.Task7.V26
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            int x;
+            double x;
             Console.WriteLine("Введите значение x:");
-            x = Convert.ToInt32(Console.ReadLine());
-            int y;
+            x = Convert.ToDouble(Console.ReadLine());
+            double y;
             Console.WriteLine("Введите значение y:");
-            y = Convert.ToInt32(Console.ReadLine());
+            y = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
